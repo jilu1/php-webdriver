@@ -1,5 +1,5 @@
 {
-  "name": "facebook/webdriver",
+  "name": "jilu1/webdriver",
   "description": "A php client for WebDriver",
   "keywords": ["webdriver", "selenium", "php", "facebook"],
   "homepage": "https://github.com/facebook/php-webdriver",
