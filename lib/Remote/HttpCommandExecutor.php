@@ -289,6 +289,9 @@ class HttpCommandExecutor implements WebDriverCommandExecutor
                 $msg .= sprintf(' with params: %s', json_encode($params));
             }
 
+            var_dump('DEBUG_DEBUG_'. __FILE__ . ': ' . $msg);
+            var_dump('DEBUG_DEBUG_params: ' . json_encode($params));
+
             throw new WebDriverCurlException($msg . "\n\n" . $error);
         }
 
